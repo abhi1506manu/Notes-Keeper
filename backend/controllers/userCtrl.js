@@ -42,7 +42,7 @@ const userCtrl = {
 
             // if login sucessfull creating TokenExpiredError
             const payload = { id: user._id, name: user.username }
-            const token = jwt.sign(payload, process.env.TOKEN_SECRET, { expiresIn: "1d" })
+            const token = jwt.sign(payload, process.env.TOKEN_SECRET, {expiresIn: "1d" })
 
             res.json({ token })
             // res.json({ msg: "login a user" })
