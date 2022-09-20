@@ -24,7 +24,7 @@ function EditNote() {
           headers: { Authorization: token }
         })
      setNote({
-      title:res.data.title,
+      title: res.data.title,
       content : res.data.content,
       date: new Date(res.data.date).toLocaleDateString() ,
       id:res.data._id

@@ -13,7 +13,7 @@ const noteSchema = new mongoose.Schema({
         type:Date,
         default:Date.now
     },
-    usr_id:{
+    user_id:{
         type:String,
         require:true
     },

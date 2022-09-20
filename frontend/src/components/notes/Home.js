@@ -9,14 +9,18 @@ function Home() {
     const [token, setToken] = useState('')
 
     const getNotes = async (token) => {
+        console.log(token)
         const res = await axios.get('api/notes', {
             headers: { Authorization: token }
         })
+        console.log(res)
         setNotes(res.data)
+      
     }
 
     useEffect(() => {
         const token = localStorage.getItem('tokenStore')
+       
         setToken(token)
         if (token) {
             getNotes(token)

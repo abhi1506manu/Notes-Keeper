@@ -4,8 +4,11 @@ const noteCtrl = {
     getNotes:async(req,res)=>{
         try {
             // res.json({user_id:req.user.id})
-            const notes = await Notes.find({user_id:req.user.id})
+            const notes = await Notes.find({user_id : req.user.id})
             res.json(notes)
+            // console.log(user_id)
+            // console.log(req.user.id)
+
         } catch (err) {
             return res.status(500).json({msg:err.message})
             
@@ -23,8 +26,7 @@ const noteCtrl = {
                 name:req.user.name
 
             })
-            // res.json({user_id:req.user.id,name:req.user.name})
-            // res.json(newNote)
+        
             await newNote.save()
             res.json({msg:"Created  a notes"})
 
@@ -37,7 +39,7 @@ const noteCtrl = {
     deleteNote: async(req,res)=>{
         try {
             await Notes.findByIdAndDelete(req.params.id)
-            res.json({mmsg:"Delte a note"})
+            res.json({msg:"Deleted a note"})
             
         } catch (err) {
             return res.status(500).json({msg:err.message})
@@ -52,7 +54,7 @@ const noteCtrl = {
                 content,
                 date
             }) 
-            res.json({msg:"Nots has been updated"})
+            res.json({msg:"Notes has been updated"})
             
         } catch (error) {
             return res.status(500).json({msg:err.message})

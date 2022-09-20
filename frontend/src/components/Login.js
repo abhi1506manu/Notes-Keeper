@@ -1,5 +1,5 @@
-import axios from 'axios';
 import React, { useState } from 'react'
+import axios from 'axios'
 import './Login.css'
 
 function Login({setIsLogin}) {
@@ -7,7 +7,7 @@ function Login({setIsLogin}) {
     name: " ", email: " ", password: " "
   })
 
-  const [err, setErr] = useState('');
+  const [err, setErr] = useState('')
 
   const onChangeInput = e =>{
     const {name,value} = e.target;
@@ -36,8 +36,8 @@ function Login({setIsLogin}) {
     e.preventDefault()
     try {
       const res = await axios.post('/user/login',{
-        email:user.email,
-        password:user.password
+        email: user.email,
+        password: user.password
       })
       setUser({name:" ",email:" ", password:" "})
       localStorage.setItem('tokenStore',res.data.token)
