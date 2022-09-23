@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { format } from 'timeago.js'
 import axios from 'axios'
+import './home.css'
 
 function Home() {
 

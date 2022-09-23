@@ -1,0 +1,52 @@
+.create-note{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(167,28,171,0.8410714627647934) 99%);
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+ 
+
+  }
+  .create-note h2{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  .create-note .row{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .create-note input,
+  .create-note button{
+    width: 100%;
+    height: 40px;
+    padding:  0 5px;
+    border-radius: 5px;
+  }
+  .create-note label{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .create-note textarea{
+    width: 100%;
+    resize: none;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  .create-note button{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(7,25,63);
+  }
+  @media (max-width: 500px){
+    .create-note{
+      padding: 15px;
+      border: 5px solid #ccc;
+    }
+  }

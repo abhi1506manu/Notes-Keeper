@@ -1,0 +1,65 @@
+.notes-wrapper{
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 1rem;
+}
+.card{
+    width: 300px;
+    box-shadow: 0 0 5px rgb(7,25,63);
+    background: rgb(7,25,63);
+    padding: 10px;
+    position: relative;
+    color: #ddd;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .card .close{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(238, 82, 82);
+    padding: 2px;
+  }
+  .card h4{
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .card .text-wrapper{
+    width: 100%;
+    height: 150px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    margin: 10px 0;
+    color: #fff9;
+  }
+  .card .date{
+    text-align: right;
+    color: wheat;
+  }
+  .card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+
+  .card button:hover{
+    color: rgb(227, 6, 6);
+  }
+

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
-import './nav.css'
+import './createNotes.css'
 
 function CreateNotes() {
 
@@ -58,10 +58,10 @@ function CreateNotes() {
 
         <div className="row">
           <label htmlFor="content">Content</label>
-          <input type="textarea" id='content'  name="content"
+          <textarea cols="30" rows="10" type="textarea" id='content'  name="content"
             value={note.content} required
             onChange={onChaneInput}
-          />
+          ></textarea>
         </div>
 
         <label htmlFor="date">Date:{note.date}</label>

@@ -3,7 +3,7 @@ import axios from 'axios'
 import Login from './components/Login';
 import Notes from './components/Notes';
 
-// import './App.css';
+import './App.css';
 
 function App() {
   const [isLogin, setIsLogin] = useState(false)

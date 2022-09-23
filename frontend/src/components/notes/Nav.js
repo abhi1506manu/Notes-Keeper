@@ -1,28 +1,32 @@
 import React from 'react'
-import { Link } from 'react-router-dom' 
-// import logo from './NoteDown-1.png'
+import { Link } from 'react-router-dom'
 import './nav.css'
+//eslint-disable-next-line
+function Nav({ setIsLogin }) {
 
-function Nav({setIsLogin}) {
 
-const logoutSubmit = ()=>{
-  localStorage.clear()
-  setIsLogin(false)
-}
+  const logoutSubmit = () => {
+    localStorage.clear()
+    setIsLogin(false)
+  }
 
   return (
-    <header>
+    <nav className='main-nav'>
       <div className="logo">
-        {/* <img src={logo} alt="logo" /> */}
-        <h2><Link to="/">Note Down</Link></h2>
+        <h2>
+          <span>N</span>ote
+          <span>D</span>own
+        </h2>
       </div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/create">CreatNote</Link></li>
-        <li onClick={logoutSubmit}><Link to="/">Logout</Link></li>
+        <ul className='menu'>
+          <li className='menu_item'><Link to="/">Home</Link></li>
+          <li className='menu_item'><Link to="/create">CreatNote</Link></li>
+          <li className='menu_item'><Link to="/about">About Us</Link></li>
+            <li className=" menu_item" onClick={logoutSubmit}><Link to="/">Logout</Link></li>
       </ul>
-    </header>
+    </nav>
   )
 }
+
 
 export default Nav

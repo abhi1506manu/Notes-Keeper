@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate,useParams } from 'react-router-dom'
 import axios from 'axios'
-import './nav.css'
+// import './nav.css'
 
 function EditNote() {
   const {id} = useParams()
@@ -80,7 +80,7 @@ function EditNote() {
 
         <div className="row">
           <label htmlFor="content">Content</label>
-          <input type="textarea" id='content' name="content"
+          <textarea cols="30" rows="10" type="textarea" id='content' name="content"
             value={note.content} required
             onChange={onChaneInput}
           />
