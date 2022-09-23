@@ -14,7 +14,8 @@ Note Down is a notes taking app which allows students to store all notes and imp
 
 ## Installation:
 
-- `MongoDB`: pip install pymongo
+- `MongoDB`: npm install mongodb
+- `Mongoose`: npm install mongoose
 - `Express`:  npm install express
-- `React`: pip install react
-- `Node`: pip install nodejs
+- `React`: npx install react
+- `Node`: npm install node
