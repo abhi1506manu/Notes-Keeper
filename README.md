@@ -5,3 +5,10 @@ Note Down is a notes taking app which allows students to store all notes and imp
 ## Demo
 
 <img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/3.jpeg' alt ='3' class = 'center'>
+
+## Installation:
+
+- `MongoDB`: pip install pymongo
+- `Express`: $ npm install express
+- `React`: pip install react
+- `Node`: pip install nodejs
