@@ -8,7 +8,7 @@ Note Down is a notes taking app which allows students to store all notes and imp
 
 ### Login and Register
 
-<img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/2.jpeg' alt ='2' class = 'center'>
+<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(14).png' alt ='2' class = 'center'>
 
 ### Home page
 
