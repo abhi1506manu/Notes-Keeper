@@ -66,7 +66,7 @@ function CreateNotes() {
 
         <label htmlFor="date">Date:{note.date}</label>
         <div className="row">
-          <input type="date" id='date' name="date" required
+          <input type="date" id='date' name="date"
              onChange={onChaneInput}
           />
         </div>

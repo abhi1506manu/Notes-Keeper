@@ -43,7 +43,14 @@
     font-weight: 900;
     letter-spacing: 2px;
     color: rgb(7,25,63);
+    background: rgba(167,28,171,0.8410714627647934);
+    border: 0px;
   }
+
+  .create-note button:hover{
+    background: rgb(232, 6, 198);
+  }
+
   @media (max-width: 500px){
     .create-note{
       padding: 15px;
