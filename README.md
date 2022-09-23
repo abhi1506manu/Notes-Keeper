@@ -6,6 +6,14 @@ Note Down is a notes taking app which allows students to store all notes and imp
 
 <img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/3.jpeg' alt ='3' class = 'center'>
 
+### Login and Register
+
+<img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/2.jpeg' alt ='2' class = 'center'>
+
+### Home page
+
+<img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/1.jpeg' alt ='1' class = 'center'>
+
 ## Members:
 
 - Abhimanyu Kumar
