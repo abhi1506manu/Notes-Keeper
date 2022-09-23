@@ -6,6 +6,12 @@ Note Down is a notes taking app which allows students to store all notes and imp
 
 <img src ='https://github.com/Abhishekkakati101/Notes-App/blob/master/images/3.jpeg' alt ='3' class = 'center'>
 
+## Members:
+
+- Abhimanyu Kumar
+- Abhishek Kakati
+- Pritam Dutta
+
 ## Installation:
 
 - `MongoDB`: pip install pymongo
