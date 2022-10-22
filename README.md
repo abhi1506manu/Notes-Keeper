@@ -2,6 +2,23 @@
 
 Note Down is a notes taking app which allows students to store all notes and important information digitally, usually in a database storage system. We can type notes on the device of choice just as one would using pen and paper.
 
+## Install dependencies for server 
+### `npm install`
+
+## Install dependencies for client
+### cd client ---> `npm install`
+
+## Connnect to your mongodb 
+
+## Run the client & server with concurrently
+### `npm run dev`
+
+## Run the Express server only
+### `npm run server`
+
+## Run the React client only
+### `npm run client`
+
 ## Demo
 
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(15).png' alt ='3' class = 'center'>
