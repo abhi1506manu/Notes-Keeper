@@ -5,7 +5,7 @@ Note Down is a notes taking app which allows students to store all notes and imp
 ## Install dependencies for server 
 ### `npm install`
 
-## Install dependencies for client
+## Install dependencies for frontend
 ### cd client ---> `npm install`
 
 ## Connnect to your mongodb 
@@ -14,10 +14,10 @@ Note Down is a notes taking app which allows students to store all notes and imp
 ### `npm run dev`
 
 ## Run the Express server only
-### `npm run server`
+### `npm server.js or nodemon server `
 
-## Run the React client only
-### `npm run client`
+## Run the frontend only
+### `npm start`
 
 ## Demo
 
