@@ -15,7 +15,7 @@ Note Down is a notes taking app which allows students to store all notes and imp
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(16).png' alt ='1' class = 'center'>
 
 ## Edit Note
-<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(17).png' alt ='1' class = 'center'
+<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(17).png' alt ='1' class = 'center'>
 
 ## Installation:
 
