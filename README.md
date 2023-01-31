@@ -32,14 +32,18 @@ $ npm install
 ```
 - To install dependencies for frontend
 ```
-
+$ cd frontend
+$ npm install
+```
 - Create a `.env` file in the backend directory and add the following
 ```
 PORT = 5000
 DATABASE=<URI>
 TOKEN_SECRET=<your-token>
 ```
-<h3> Connnect to your mongodb</h3> 
+<h3> To Connnect your mongodb</h3>
+<h3> Run frontend and backend concurrently</h3>
+
 - To run the backend  
 ```sh
 $ cd backend/
