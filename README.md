@@ -1,26 +1,10 @@
 # Note Down
 
-Note Down is a notes taking app which allows students to store all notes and important information digitally, usually in a database storage system. We can type notes on the device of choice just as one would using pen and paper.
+Note Down is fully functional and robust notes taking app which allows user to store and access all notes and important information digitally, usually in a cloud based database storage system. React is used for fronted design,The authentication is powered by JWT and local storage is being implemented so that the user won't have login again and again and the Node.js and Express.js backend use MongoDB as database to save, delete and update the notes.
 
-## Install dependencies for server 
-### `npm install`
+## Screenshorts
 
-## Install dependencies for frontend
-### cd frontend ---> `npm install`
-
-## Connnect to your mongodb 
-
-## Run the client & server with concurrently
-### `npm run dev`
-
-## Run the Express server only
-### `npm server.js or nodemon server `
-
-## Run the frontend only
-### `npm start`
-
-## Demo
-
+### Home
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(15).png' alt ='3' class = 'center'>
 
 ### Login and Register
@@ -31,13 +15,38 @@ Note Down is a notes taking app which allows students to store all notes and imp
 
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(16).png' alt ='1' class = 'center'>
 
-## Edit Note
+### Edit Note
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(17).png' alt ='1' class = 'center'>
 
-## Installation:
+##QuickStart
 
-- `MongoDB`: npm install mongodb
-- `Mongoose`: npm install mongoose
-- `Express`:  npm install express
-- `React`: npx  create-react-app notes-app
-- `Node`: npm install node
+- Open your terminal and run the command
+```
+ $ git clone https://github.com/abhi1506manu/Notes-App.git
+ $cd Notes-App
+```
+- To install dependencies for backend
+```
+$ cd backend
+$ npm install
+```
+- To install dependencies for frontend
+```
+
+- Create a ```.env``` file in the backend directory and add the following
+```
+PORT = 5000
+DATABASE=<URI>
+TOKEN_SECRET=<your-token>
+```
+# Connnect to your mongodb 
+- To run the backend  
+```sh
+$ cd backend/
+$ npm run dev
+```
+To run the frontend  
+```sh
+$ cd frontend/
+$ npm start
+```
