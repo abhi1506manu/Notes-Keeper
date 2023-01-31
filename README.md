@@ -18,7 +18,7 @@ Note Down is fully functional and robust notes taking app which allows user to s
 ### Edit Note
 <img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(17).png' alt ='1' class = 'center'>
 
-##QuickStart
+<h2>QuickStart</h2>
 
 - Open your terminal and run the command
 ```
@@ -33,13 +33,13 @@ $ npm install
 - To install dependencies for frontend
 ```
 
-- Create a ```.env``` file in the backend directory and add the following
+- Create a `.env` file in the backend directory and add the following
 ```
 PORT = 5000
 DATABASE=<URI>
 TOKEN_SECRET=<your-token>
 ```
-# Connnect to your mongodb 
+<h3> Connnect to your mongodb</h3> 
 - To run the backend  
 ```sh
 $ cd backend/
