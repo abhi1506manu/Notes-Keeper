@@ -6,17 +6,16 @@ Note Down is fully functional and robust notes taking app which allows user to s
 
 ### Login and Register
 
-![Imgur](https://imgur.com/H2TbCjE)
+![Login-Register](https://i.imgur.com/H2TbCjE.png)
 
 ### Home
-![Home](https://imgur.com/TMGfk0r)
-
+![Home](https://i.imgur.com/TMGfk0r.png)
 
 ### Add Note
-![create-note](https://imgur.com/WWQFwdn)
+![create-note](https://i.imgur.com/WWQFwdn.png)
 
 ### Edit Note
-![edit-note](https://imgur.com/SZyFYzj)
+![Edit](https://i.imgur.com/SZyFYzj.png)
 
 <h2>QuickStart</h2>
 
