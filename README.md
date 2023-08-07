@@ -4,19 +4,19 @@ Note Down is fully functional and robust notes taking app which allows user to s
 
 ## Screenshorts
 
-### Home
-<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(15).png' alt ='3' class = 'center'>
-
 ### Login and Register
 
-<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(14).png' alt ='2' class = 'center'>
+![Imgur](https://imgur.com/H2TbCjE)
+
+### Home
+![Home](https://imgur.com/TMGfk0r)
+
 
 ### Add Note
-
-<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(16).png' alt ='1' class = 'center'>
+![create-note](https://imgur.com/WWQFwdn)
 
 ### Edit Note
-<img src ='https://github.com/abhi1506manu/Notes-App/blob/master/images/Screenshot%20(17).png' alt ='1' class = 'center'>
+![edit-note](https://imgur.com/SZyFYzj)
 
 <h2>QuickStart</h2>
 
